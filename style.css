@@ -1,0 +1,181 @@
+ body {
+     background-color: #F5F6F8 ;
+     font-family: 'Heebo', sans-serif;
+     color: #343a40;
+}
+
+#header {
+    display: inline-block;
+    margin-top: 0px;
+    width: 100%;
+    background-color: #D8D0EB;
+    padding: 10px 20px;
+    border-radius: 15px 15px 0px 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+}
+.socialmedia a{
+    margin-left: 10px;
+    text-decoration: none;
+    width: 20px;
+    text-align: center;
+    vertical-align:middle;
+    padding: 10px;
+    margin: 5px 2px;
+    border-radius: 50%;
+    
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.spanmargin {
+    margin-left: 20px;
+}
+
+.img-profile {
+    
+    border-radius: 50%;
+    width: 100px;
+}
+#header-img {
+   display: inline-block;
+    float: left;
+}
+
+#header-name {
+    float: left;
+    padding: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    margin-top: 20px
+}
+#header-name h1 {
+    font-size: 20px;
+    font-weight: 600px
+}
+#header-name p {
+    font-size: 16px;
+    font-weight: 20px;
+    margin-top: -20px;
+}
+#personal-info{
+    margin-top: 20px;
+}
+
+.container {
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    -webkit-box-shadow: 10px 10px -10px 6px -6px #999;
+    -moz-box-shadow: 10px 10px -10px 6px -6px #999;
+    box-shadow: 10px 10px -10px 6px -6px #999;
+    border-radius: 15px 15px 0px 0px;
+    background-color: #ffffff;
+
+}
+.checked {
+    color: #D8D0EB;
+}
+.info-detail-head{
+    margin-top: 25px;
+    background-color: #C0F7E2;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 40px;
+    display: inline-block;
+    height: 40px
+    
+}
+.info-detail-head h5{
+    margin-top: 10px;
+    margin-bottom: 2px;
+    font-size: 16px
+     
+}
+#personal-info {
+    margin-left: 25px;
+}
+
+#personal-info p , a{
+    margin-top: -20px;
+    text-decoration: none;
+    
+}
+
+.info-detail{
+    margin-top: 15px;
+}
+.info-detail-container{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+#education {
+    margin-left: 25px;
+}
+
+#education li {
+    margin-top: 15px;
+}
+
+#certificates {
+    margin-left: 25px;
+}
+
+#skills {
+    margin-left: 25px;
+}
+#softwares{
+    margin-left: 25px;
+}
+
+#experiences{
+    margin-left: 25px;
+}
+#experiences p{
+    margin-top: -10px
+}
+#proglang{
+    margin-left: 25px;
+}
+#interests{
+    margin-left: 25px;
+}
+
+ul li {
+    margin-top: 10px;
+    margin-left: -15px;
+}
+#lastquote{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    box-shadow: 0px 5px 5px  #f1f1f1 ;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+.footer {
+    border-radius: 15px;
+}
+
