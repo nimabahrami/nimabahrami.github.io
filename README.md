@@ -1,2 +1,2 @@
-# https://resume.github.io
+# https://nimabahrami.github.io
 my resume website
