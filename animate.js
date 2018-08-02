@@ -1,4 +1,4 @@
-var step = 20;
+var step = 30;
 
 window.onscroll = function() {
   scrollFunction()
