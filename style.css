@@ -81,9 +81,9 @@
 
 .container {
     width: auto;
-    margin-left: 12px;
-    margin-right: 12px;
-    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
     -webkit-box-shadow: 10px 10px -10px 6px -6px #999;
     -moz-box-shadow: 10px 10px -10px 6px -6px #999;
     box-shadow: box-shadow: 0 0 20px #000;
