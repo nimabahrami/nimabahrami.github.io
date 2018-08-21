@@ -206,10 +206,10 @@ ul li {
 
 a.button {
     text-decoration: none;
-    background-color: #9AD5EA ;
+    background-color: #CE7D7E;
     padding: 5px 25px 5px 25px;
-    color: #343a40;
-    border-radius: 25px;
+    color: white;
+    border-radius: 10px;
     font-weight:bold;
 }
 
@@ -217,12 +217,11 @@ a.button:hover {
     -webkit-transition-duration: 0.6s; /* Safari */
     transition-duration: 0.6s;
     text-decoration: none;
-    background-color: #CE7D7E;
+    background-color: #9AD5EA ;
     padding: 5px 25px 5px 25px;
-    color: white;
-    border-radius: 10px;
+    color: #343a40;
+    border-radius: 25px;
     font-weight:bold;
-    
 }
 
 #blogbutton {
