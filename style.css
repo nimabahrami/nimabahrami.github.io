@@ -262,7 +262,7 @@ a.button:hover {
 #home{ 
     color: white;
     font-weight: 400;
-    background-color: #544556;
+    background-color: #7B7EA8;
     border-radius: 50%;
     padding-right: 10px;
     padding-top: 10px;
@@ -272,15 +272,17 @@ a.button:hover {
     text-align: center;
     vertical-align: middle;
     align-items: center;
-    margin-left: 10px;
+    margin-left: 30px;
     margin-top: 30px;
     height: 30px;
     text-decoration:none;
+    margin-bottom: -50px;
+    position: sticky;
     
 }
 
 .container2 {
-    background-image: linear-gradient(to right top, #544556, #8e626f, #c38778, #e0b880, #e0f1a0);
+    background-image: linear-gradient(to right top, #ffd8e2, #f0d4ed, #d7d3f6, #b7d5f6, #9ad5ea);
 }
 a {
     color: #544556;
