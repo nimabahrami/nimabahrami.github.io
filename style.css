@@ -277,7 +277,7 @@ a.button:hover {
     height: 30px;
     text-decoration:none;
     margin-bottom: -50px;
-    position: sticky;
+    position: relative;
     
 }
 
