@@ -48,12 +48,12 @@ a, a:hover {
 
 .profile-card {
   width: 100%;
-  min-height: 460px;
+  min-height: 440px;
   margin: auto;
   box-shadow: 0px 8px 60px -10px rgba(13, 28, 39, 0.6);
   background: #fff;
   border-radius: 12px;
-  max-width: 700px;
+  max-width: 500px;
   position: relative;
 }
 .profile-card.active .profile-card__cnt {
@@ -79,7 +79,7 @@ a, a:hover {
   overflow: hidden;
   position: relative;
   z-index: 4;
-  box-shadow: 0px 5px 50px 0px #6c44fc, 0px 0px 0px 7px rgba(107, 74, 255, 0.5);
+  box-shadow: 0px 0px 0px 7px rgba(107, 74, 255, 0.5);
 }
 @media screen and (max-width: 576px) {
   .profile-card__img {
@@ -95,7 +95,7 @@ a, a:hover {
   border-radius: 50%;
 }
 .profile-card__cnt {
-  margin-top: -35px;
+  margin-top: -25px;
   text-align: center;
   padding: 0 20px;
   padding-bottom: 40px;
