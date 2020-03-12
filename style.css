@@ -35,8 +35,6 @@ a, a:hover {
   padding: 50px 20px;
   padding-top: 100px;
   display: flex;
-
-  background: linear-gradient(90deg, rgba(249,245,157,1) 0%, rgba(249,193,113,1) 24%, rgba(187,220,165,1) 80%, rgba(133,196,150,1) 100%);
   
 }
 @media screen and (max-width: 768px) {
