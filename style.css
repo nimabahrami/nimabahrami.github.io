@@ -81,7 +81,7 @@ a, a:hover {
   z-index: 4;
   box-shadow: 0px 0px 0px 7px #FAFFC0;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 1200px) {
   .profile-card__img {
     width: 120px;
     height: 120px;
