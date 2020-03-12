@@ -11,7 +11,7 @@ html {
 body {
   font-family: 'Quicksand', sans-serif;
   color: #324e63;
-  background-image: url("background.jpg");
+  background-image: url("img/bg.jpg");
 }
 
 a, a:hover {
