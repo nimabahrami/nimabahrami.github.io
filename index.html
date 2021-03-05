@@ -1,64 +1,134 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <link rel="stylesheet" href="style.css">
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nima Bahrami</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
 </head>
 <body>
-<div class="wrapper">
+    <header>
+        <div class="container">
+            <nav>
+                <div class="nav_brand">
+                    <a href="index.html">
+                        <img id="logo-image" src="img/logo.png" alt="">
+                    </a>
+                </div>
 
-  
-  <div class="profile-card js-profile-card">
-    <div class="profile-card__img">
-      <img src="https://nimabahrami.github.io/img/image.jpeg" alt="profile card">
-    </div>
+                <div class="menu-icon open">
+                    <a href="#">
+                        <img id="menu-image" src="img/menu.png" alt="">
+                    </a>
+                </div>
 
-    <div class="profile-card__cnt js-profile-cnt">
-      <div class="profile-card__name">Nima Bahrami</div>
-      <div class="profile-card__txt">Mechanical Engineer</div>
-      <div class="profile-card-loc">
-        <span class="profile-card-loc__icon">
-          <p> <i class="fa fa-map-marker" style="font-size:40px;color:rgb(96, 95, 95)"></i> </p>
-        </span>
+                <ul class="nav-list">
+                    <div class="menu-icon close">
+                        <a href="#">
+                            <img id="close-image" src="img/close.png" alt="">
+                        </a>
+                    </div>
+                    <li class="nav-items">
+                        <a href="#blog" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="#" class="nav-link">Resume</a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="#links" class="nav-link">Links</a>
+                    </li>
+                </ul>
 
-        <span class="profile-card-loc__txt">
-          Rasht, Iran
-        </span>
-      </div>
+            </nav>
+        </div>
+    </header>
 
+    <section class="hero">
+        <div class="msg-container">
+            <div class="the-message">
+                <h1>I Am A Mechanical Engineer</h1>
+                <h3>OFCOURSE A Renewable Energy Enthusiast</h3>
+                <p> My name is Nima bahrami. I am a mechanical engineer who is fervid about renewable energy</p>
+                <div class="cta">
+                    <a href="#" class="btn">Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="blog" id='blog'>
+    <a name='blog'></a>
+        <div class="msg-container">
+            <div class="title-heading">
+                <h1>‌Blog</h1>
+                <h3>Pros and cons of renewable energy, News, and Ideas</h3>
+            </div>
+            <div class="blog-posts-grid">
+                <div class="blog-items solar-bp">
+                    <h1>Solar power</h1>
+                    <h3>The unlimited power source</h3>
+                    <p>sun is good not only for your skin and mood but also for powering your ass up</p>
+                    <div class="cta">
+                        <a href="#" class="btn-blog">Read more</a>
+                    </div>
+                </div>
 
-      <div class="profile-card-social">
-        
+                <div class="blog-items hybrid-bp">
+                    <h1>Hybrid systems</h1>
+                    <h3>Surge the efficiency</h3>
+                    <p>sun is good not only for your skin and mood but also for powering your ass up</p>
+                    <div class="cta">
+                        <a href="#" class="btn-blog">Read more</a>
+                    </div>
+                </div>
 
-        <a href="https://twitter.com/goldmccoin" class="profile-card-social__item twitter" target="_blank">
-          <span class="icon-font">
-            <p> <i class="fa fa-twitter" style="font-size:30px;color:white"></i></p>
-          </span>
-        </a>
+                <div class="blog-items wind-bp">
+                    <h1>Wind power</h1>
+                    <h3>Easy maintenance</h3>
+                    <p>Wind and and its kinetic potential will charge your house easily. yet its highly fluctuating</p>
+                    <div class="cta">
+                        <a href="#" class="btn-blog">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="empty">
+    <div class="empty"></div>
+    </section>
 
-        <a href="https://www.instagram.com/sacredwakizashi" class="profile-card-social__item instagram" target="_blank">
-          <span class="icon-font">
-             <p> <i class="fa fa-instagram" style="font-size:30px;color:white"></i> </p>
-          </span>
-        </a>
+    <section class="socialmedia" id='links'>
+        <a name='links'></a>
+        <div class="container">
+            <div class="title-heading social-heading">
+                <h1>‌Find me</h1>
+                <h3>Links for social media and contact informations</h3>
+            </div>
 
-        
+            <div class="links-grid">
+                <div class="link-items insta">
+                    <a href="https://www.instagram.com/sacredwakizashi/" class="btn-social">Instagram</a>
+                </div>
+                <div class="link-items twitter">
+                    <a href="https://twitter.com/goldmccoin" class="btn-social">Twitter</a>
+                </div>
+                <div class="link-items linkedin">
+                    <a href="https://www.linkedin.com/in/nima-bahrami-20013b144/" class="btn-social">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footnote">
+        <div class="footnote">
+            <a href="#"> starved to build this lad! </a>
+        </div>
+    </section>
 
-        <a href="https://nimabahrami.github.io/scripts.html" class="profile-card-social__item github" target="_blank">
-          <span class="icon-font">
-              <p> <i class="fa fa-cube" style="font-size:30px;color:white"></i> </p>
-          </span>
-        </a>
-
-
-        <a href="http://nimabahrami.github.io/NimaCV.pdf" class="profile-card-social__item link" target="_blank">
-          <span class="icon-font">
-            <p>CV</p>
-          </span>
-        </a>
-
-      </div>
-
-      </body>
-    </html>
+    <script type= "text/javascript" src='script.js'></script>
+</body>
+</html>
