@@ -80,7 +80,7 @@ nav{
 .nav-list{
     background-color: rgb(1, 0, 75);
     width: 20rem;
-    height: 400px;
+    height: 100vh;
     position: fixed;
     top: 0;
     right: -26rem;
