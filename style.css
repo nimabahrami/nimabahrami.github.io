@@ -116,6 +116,14 @@ a .nav-item {
     padding: 100px;
 }
 
+.nav-item-2{
+    margin: 1.5rem 0;
+}
+
+a .nav-item-2 {
+    padding: 100px;
+}
+
 .nav-link{
     font-size: 1.6rem;
     text-transform: uppercase;
