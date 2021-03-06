@@ -40,7 +40,7 @@ section{
 }
 
 .header-bg{
-    background: linear-gradient(90deg, rgba(52,200,109,0.9) 0%, rgba(30,251,104,0.8) 100%);
+    background: linear-gradient(90deg, rgba(2, 14, 85, 0.9) 0%, rgba(24, 43, 126, 0.8) 100%);
     width: 100%;
     height: 5rem;
     position: fixed;
@@ -88,7 +88,7 @@ nav{
 }
 
 .nav-list{
-    background-color: rgb(1, 0, 75);
+    background-color: #fff782;
     width: 20rem;
     height: 100vh;
     position: fixed;
@@ -137,12 +137,12 @@ a .nav-item-2 {
 .nav-link{
     font-size: 1.6rem;
     text-transform: uppercase;
-    color:rgb(228, 238, 141);
+    color:midnightblue;
     
 }
 
 #menu-image{
-    width: 20px;
+    width: 25px;
     height: 20px;
 }
 
@@ -155,9 +155,10 @@ a .nav-item-2 {
     width: 100%;
     height: 80vh;
     /*background: linear-gradient(135deg, rgba(70,60,246,0.9) 0%, rgba(29,42,219,0.8) 100%), url("img/bg.jpg") center no-repeat;*/
-    background: linear-gradient(90deg, rgba(52,200,109,0.9) 0%, rgba(30,251,104,0.8) 100%), url("img/bg.jpg") center no-repeat;
+    background: linear-gradient(90deg, rgba(18, 24, 103, 0.9) 0%, rgba(9, 11, 109, 0.8) 100%), url("img/bg.jpg") center no-repeat;
     background-size: cover;
     position: relative;
+    color: white;
 }
 
 .hero::before{
@@ -176,6 +177,7 @@ a .nav-item-2 {
     min-width: 300px;
     margin-left: -75px;
     padding: 0;
+    transform: translate(0px, 50px);
 
 }
 
@@ -206,7 +208,7 @@ a .nav-item-2 {
 }
 
 .btn{
-    background-color: midnightblue;
+    background-color: rgb(250, 108, 47);
     border-radius: 2rem;
     color: beige;
     display: inline-block;
@@ -245,6 +247,7 @@ a .nav-item-2 {
     top: 2rem;
     font-size: 1.5rem;
     z-index: 1;
+    color: white;
     
 }
 
@@ -254,6 +257,7 @@ a .nav-item-2 {
     font-size: 1rem;
     margin-top: -4.5rem;
     line-height: 20px;
+    color: white;
 }
 
 .blog-items p{
@@ -262,6 +266,7 @@ a .nav-item-2 {
     font-size: 1rem;
     margin-bottom: 1rem;
     z-index: 1;
+    color: white;
 }
 
 .blog-posts-grid{
@@ -283,6 +288,13 @@ a .nav-item-2 {
     border-radius: 0.3rem;
     /*-webkit-box-shadow: 0px 13px 50px 12px rgba(125,255,120,0.18); 
     box-shadow: 0px 13px 50px 12px rgba(125,255,120,0.18);*/
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
 }
 
 .blog-items::before{
@@ -292,7 +304,7 @@ a .nav-item-2 {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(90deg, rgba(52,200,109,0.9) 0%, rgba(30,251,104,0.8) 100%);
+    background-image: linear-gradient(90deg, rgba(6, 9, 104, 0.9) 0%, rgba(20, 10, 112, 0.8) 100%);
     z-index: -1;
     border-radius: 0.3rem;
     /*-webkit-box-shadow: 0px 13px 50px 12px rgba(125,255,120,0.18); 
@@ -312,9 +324,9 @@ a .nav-item-2 {
 
 .btn-blog{
     position: absolute;
-    background-color: midnightblue;
+    background-color:#fff782;
     border-radius: 2rem;
-    color: beige;
+    color: midnightblue;
     display: inline-block;
     bottom: 1rem;
     right: 1rem;
@@ -329,7 +341,7 @@ a .nav-item-2 {
     width: 100%;
     height: 80vh;
     /*background: linear-gradient(135deg, rgba(70,60,246,0.9) 0%, rgba(29,42,219,0.8) 100%), url("img/bg.jpg") center no-repeat;*/
-    background: linear-gradient(90deg, rgba(4, 5, 88, 0.95) 0%, rgba(50, 12, 189, 0.9) 100%), url("img/self.JPEG") center no-repeat;
+    background: linear-gradient(90deg, rgba(4, 5, 88, 0.95) 0%, rgba(4, 11, 100, 0.9) 100%), url("img/self.JPEG") center no-repeat;
     background-size: cover;
     position: relative;
 }
@@ -415,13 +427,13 @@ a .nav-item-2 {
 .footnote{
     height: 30px;
     padding: 5px;
-    color: white;
-    background-color: #e1306c;
+    color:midnightblue;
+    background-color: #fff782;
     align-items: center;
 }
 .footnote a{
     margin-left:  3rem;
-    color: white;
+    color: midnightblue;
     font-size: 12px;
     font-family: monospace;
     position: relative;
