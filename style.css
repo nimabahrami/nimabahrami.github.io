@@ -359,69 +359,20 @@ a .nav-item-2 {
 
 .links-grid{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(1rem,1fr));
-    grid-gap: 6rem; 
+    grid-template-columns: repeat(auto-fit,minmax(30px,1fr));
+    grid-gap: 50px; 
     align-items: center;
+    text-align: center;
+    justify-items: center;
 }
 
-.link-items{
-    height: 60px;
-    width: 60px;
-    /*padding: 2rem;*/
-    position: relative;
-    top: 0;
-    left: 0px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    z-index: 1;
-    border-radius: 100%;
-    /*-webkit-box-shadow: 0px 13px 50px 12px rgba(125,255,120,0.18); 
-    box-shadow: 0px 13px 50px 12px rgba(125,255,120,0.18);*/
-}
-
-.link-items::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 60px;
-    height: 60px;
-    z-index: -1;
-    border-radius: 10rem;
-    /*-webkit-box-shadow: 0px 13px 50px 12px rgba(125,255,120,0.18); 
-    box-shadow: 0px 13px 50px 12px rgba(125,255,120,0.18);*/
-}
-
-.insta{
-    background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
-}
-
-.twitter{
-    background-color: #00aaee;
-}
-
-.linkedin{
-    background:linear-gradient(45deg, #0077b5, #000000, #313335, #86888a, #caccce, #00a0dc);
-    
-}
-
-.link-items a{
-    font-size: 1rem;
-    color: white;
-    position: absolute;
-    top: 5rem;
-    font-family: 'Courier New', Courier, monospace;
-    
-}
 
 .empty{
     padding: 0;
-    height: 100px;
+    height: 120px;
     background-color: white;
     width: 100%;
+    z-index: -1;
 }
 
 .footnote{
@@ -439,4 +390,45 @@ a .nav-item-2 {
     position: relative;
     align-self: center;
     display: inline-block;
+}
+
+.fa {
+    padding-right: 31px;
+    padding-left: 19px;
+    padding-top: 17px;
+    padding-bottom: 33px;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    text-decoration: none;
+    margin: 0px 0px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
 }
