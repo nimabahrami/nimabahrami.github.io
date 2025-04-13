@@ -1,4 +1,4 @@
-name: Fetch Data from RestDB
+dbname: Fetch Data from sheetDB
 
 on:
   push:
@@ -33,5 +33,5 @@ jobs:
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
           git add public/data.json
-          git commit -m "Update data from RestDB" || echo "No changes"
+          git commit -m "Update data from SheetDB" || echo "No changes"
           git push
