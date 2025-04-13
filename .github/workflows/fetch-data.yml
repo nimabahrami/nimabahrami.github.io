@@ -9,6 +9,7 @@ on:
 jobs:
   fetch:
     runs-on: ubuntu-latest
+    environment: sheetdb
 
     steps:
       - name: Checkout Repo
