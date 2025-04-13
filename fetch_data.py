@@ -2,14 +2,13 @@ import requests
 import os
 import json
 
-api_key = os.getenv("RESTDB_API_KEY")
-url = "https://myen3rgyin7estments-3498.restdb.io/rest/stocks"
+SHEETDB_AUTH = os.getenv("SHEETDB_AUTH")
+url = "https://sheetdb.io/api/v1/59mfw9fgs9c7x"
 
-headers = {
-    'content-type': "application/json",
-    "x-apikey": api_key,
-    'cache-control': "no-cache"
-    }
+        headers = {
+            "Authorization": f"Bearer {SHEETDB_AUTH}",
+            "Content-Type": "application/json"
+        }
 
 response = requests.get(url, headers=headers)
 data = response.json()
