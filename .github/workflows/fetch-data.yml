@@ -4,7 +4,7 @@ on:
   push:
     branches: [master]
   schedule:
-    - cron: '0 */4 * * *' # Runs every hour
+    - cron: '0 */4 * * *' # Every 4 hours
 
 jobs:
   fetch:
@@ -13,25 +13,28 @@ jobs:
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
+        with:
+          persist-credentials: true
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
 
-      - name: Install Requests
+      - name: Install Dependencies
         run: pip install requests
 
-      - name: Run Script to Fetch Data
+      - name: Run Python Script
         env:
           SHEETDB_AUTH: ${{ secrets.SHEETDB_AUTH }}
         run: |
+          echo "Running fetch_data.py..."
           python fetch_data.py
 
-      - name: Commit changes
+      - name: Commit and Push if Changes
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
           git add data.json
-          git commit -m "Update data from SheetDB" || echo "No changes"
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update data from SheetDB"
           git push
