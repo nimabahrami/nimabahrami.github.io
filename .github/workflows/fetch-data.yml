@@ -23,6 +23,7 @@ jobs:
         run: pip install requests
 
       - name: Run Script to Fetch Data
+        run: echo "First 4 chars of token: ${SHEETDB_AUTH:0:4}"
         env:
           SHEETDB_AUTH: ${{ secrets.SHEETDB_AUTH }}
         run: |
