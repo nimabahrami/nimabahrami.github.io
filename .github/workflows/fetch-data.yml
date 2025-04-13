@@ -4,7 +4,7 @@ on:
   push:
     branches: [master]
   schedule:
-    - cron: '0 * * * *'  # Runs every hour
+    - cron: '0 */4 * * *'  # Runs every hour
 
 jobs:
   fetch:
@@ -24,7 +24,7 @@ jobs:
 
       - name: Run Script to Fetch Data
         env:
-          RESTDB_API_KEY: ${{ secrets.RESTDB_API_KEY }}
+          SHEETDB_AUTH: ${{ secrets.SHEETDB_AUTH }}
         run: |
           python fetch_data.py
 
