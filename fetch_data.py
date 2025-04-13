@@ -2,9 +2,9 @@ import requests
 import os
 import json
 
-SHEETDB_AUTH = os.getenv("SHEETDB_AUTH")
+token = os.getenv("SHEETDB_AUTH")
 url = "https://sheetdb.io/api/v1/59mfw9fgs9c7x"
-headers = {"Authorization": f"Bearer {SHEETDB_AUTH}",
+headers = {"Authorization": f"Bearer {token}",
            "Content-Type": "application/json"
           }
 
