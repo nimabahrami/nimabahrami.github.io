@@ -1,4 +1,4 @@
-dbname: Fetch Data from sheetDB
+name: Fetch Data from sheetDB
 
 on:
   push:
