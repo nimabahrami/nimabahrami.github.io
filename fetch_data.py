@@ -11,6 +11,6 @@ headers = {"Authorization": f"Bearer {SHEETDB_AUTH}",
 response = requests.get(url, headers=headers)
 data = response.json()
 
-with open("public/data.json", "w") as f:
+with open("data.json", "w") as f:
     json.dump(data, f, indent=2)
 
