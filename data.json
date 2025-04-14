@@ -33,5 +33,19 @@
     "buy_price": "252.31",
     "shares": "1.19",
     "long_name": "Tesla, Inc."
+  },
+  {
+    "ticker": "SMR",
+    "buy_value": "100",
+    "buy_price": "15.15",
+    "shares": "6.6",
+    "long_name": "NuScale Power Corporation"
+  },
+  {
+    "ticker": "CEG",
+    "buy_value": "200",
+    "buy_price": "208.25",
+    "shares": "0.96",
+    "long_name": "Constellation Energy Corporation"
   }
 ]
