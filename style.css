@@ -166,16 +166,31 @@ h3 {
     gap: 2rem;
 }
 
+/* Profile Picture */
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    border: 3px solid white;
+}
+
 .project-card {
     background: var(--card-bg);
     padding: 2rem;
     border-radius: 12px;
     border: 1px solid var(--border-color);
-    transition: transform 0.2s;
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: block;
+    /* Ensure anchor links behave like blocks */
 }
 
 .project-card:hover {
     transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    border-color: var(--accent-blue);
 }
 
 .project-card h4 {
@@ -213,8 +228,9 @@ footer {
     #hero h1 {
         font-size: 2.5rem;
     }
-    
+
     .nav-links {
-        display: none; /* Mobile menu implementation left for future improvement */
+        display: none;
+        /* Mobile menu implementation left for future improvement */
     }
 }
