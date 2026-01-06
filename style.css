@@ -175,6 +175,8 @@ h3 {
     margin-bottom: 2rem;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
     border: 3px solid white;
+    max-width: 100%;
+    /* Ensure it doesn't overflow container */
 }
 
 .project-card {
@@ -232,5 +234,16 @@ footer {
     .nav-links {
         display: none;
         /* Mobile menu implementation left for future improvement */
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .btn {
+        width: 100%;
+        justify-content: center;
     }
 }
