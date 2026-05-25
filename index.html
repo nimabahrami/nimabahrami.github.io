@@ -4,148 +4,409 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>N. Bahrami | AI-Focused Engineer</title>
+    <meta name="description" content="Nima Bahrami, energy data engineer building tools for power systems, renewables and energy markets.">
+    <title>N. Bahrami · Energy &amp; Data</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
+    <div class="mesh-bg" aria-hidden="true">
+        <div class="blob b1"></div>
+        <div class="blob b2"></div>
+        <div class="blob b3"></div>
+        <div class="blob b4"></div>
+        <div class="blob b5"></div>
+    </div>
 
     <nav class="navbar">
-        <div class="logo">N. Bahrami</div>
+        <a href="#top" class="logo">nima.bahrami</a>
         <div class="nav-links">
-            <a href="#about"><i class="fa-regular fa-user"></i> About</a>
-            <a href="#projects"><i class="fa-solid fa-list-check"></i> Projects</a>
-            <a href="#contact"><i class="fa-regular fa-envelope"></i> Contact</a>
+            <a href="#about">about</a>
+            <a href="#work">work</a>
+            <a href="#side">side</a>
+            <a href="#lab">lab</a>
+            <a href="#contact">contact</a>
         </div>
         <div class="social-icons">
-            <a href="https://github.com/nimabahrami" target="_blank"><i class="fa-brands fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/nima-bahrami-20013b144/" target="_blank"><i
-                    class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/nimabahrami" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/nima-bahrami-20013b144/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
         </div>
     </nav>
 
-    <main>
-        <section id="hero">
-            <img src="images/profile.jpg" alt="N. Bahrami" class="profile-pic">
-            <h1>Hi, I'm N. Bahrami</h1>
-            <h2>Mechanical Engineer | Energy Market Analyst</h2>
-            <p class="hero-desc">
-                Specializing in hybrid renewable energy systems simulation, game theoretic analysis of energy markets,
-                and optimizing energy mix strategies.
-            </p>
-            <div class="cta-buttons">
-                <a href="#projects" class="btn btn-primary"><i class="fa-solid fa-layer-group"></i> View Projects</a>
-                <a href="https://www.linkedin.com/in/nima-bahrami-20013b144" target="_blank" class="btn btn-primary"><i
-                        class="fa-brands fa-linkedin"></i> Let's Connect on LinkedIn</a>
-                <a href="#" class="btn btn-secondary"><i class="fa-solid fa-download"></i> Download Resume</a>
-            </div>
-        </section>
+    <main id="top">
 
-        <!-- Placeholders for sections implied by design but not fully visible -->
-        <section id="about" class="container">
-            <h3>About Me</h3>
-            <p>Energy data analyst who builds clean pipelines and clear analytics for renewable portfolios and flexible
-                assets. Strong in Python and SQL for ETL, data quality checks, time series features, forecasting, and
-                KPI reporting. Comfortable translating results for trading, asset management, and operations teams.</p>
-        </section>
-
-        <section id="projects" class="container">
-            <h3>Featured Projects</h3>
-            <div class="project-grid">
-                <!-- Buffetria -->
-                <a href="https://github.com/nimabahrami/buffeteria" target="_blank" class="project-card">
-                    <h4>Buffetria</h4>
-                    <p>Analyzes oil and gas companies fundamentally.</p>
-                    <div class="tags">
-                        <span>Python</span><span>Finance</span><span>Fundamental Analysis</span>
-                    </div>
-                </a>
-
-                <!-- HRES Simulation -->
-                <a href="https://hybrid-res-sim-84055316990.us-central1.run.app/" target="_blank" class="project-card">
-                    <h4>HRES Simulation</h4>
-                    <p>Simulation platform for optimizing hybrid renewable energy systems and analyzing energy mix
-                        scenarios.</p>
-                    <div class="tags">
-                        <span>Python</span><span>Energy Systems</span><span>Modeling</span>
-                    </div>
-                </a>
-
-                <!-- Game Theory App -->
-                <a href="http://wakizashi.pythonanywhere.com/" target="_blank" class="project-card">
-                    <h4>Game Theory Equilibrium</h4>
-                    <p>Web application for finding Nash equilibrium between stakeholders in complex energy market
-                        scenarios.</p>
-                    <div class="tags">
-                        <span>Python</span><span>Game Theory</span><span>Web App</span>
-                    </div>
-                </a>
-
-                <!-- Make It Analog -->
-                <a href="https://github.com/nimabahrami/make_it_analog" target="_blank" class="project-card">
-                    <h4>Make It Analog</h4>
-                    <p>Image processing tool that applies authentic analog film aesthetics and grain to digital photos.
+        <!-- HERO -->
+        <section id="hero" class="snap-section">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <span class="status-badge">
+                        <span class="dot"></span> available for energy &amp; data work
+                    </span>
+                    <h1>
+                        Building at the<br>
+                        intersection of <em class="serif">energy</em> &amp; <em class="serif">data</em>.
+                    </h1>
+                    <p class="hero-desc">
+                        I'm Nima, a mechanical engineer turned energy data engineer.
+                        I model power systems, clean messy time series, and build small tools
+                        that make complex markets legible.
                     </p>
-                    <div class="tags">
-                        <span>Python</span><span>Image Processing</span><span>Computer Vision</span>
+                    <div class="cta-buttons">
+                        <a href="#work" class="btn btn-primary">
+                            <i class="fa-solid fa-arrow-right"></i> See the work
+                        </a>
+                        <a href="mailto:n.bahraami@gmail.com" class="btn btn-ghost">
+                            <i class="fa-regular fa-envelope"></i> Get in touch
+                        </a>
                     </div>
-                </a>
+                    <div class="meta-row">
+                        <span><i class="fa-solid fa-location-dot"></i> Netherlands</span>
+                        <span><i class="fa-solid fa-code"></i> Python · SQL · PyPSA</span>
+                        <span><i class="fa-solid fa-bolt"></i> Power systems · Markets</span>
+                    </div>
+                </div>
+                <div class="hero-photo">
+                    <div class="photo-frame">
+                        <img src="images/profile.jpg" alt="N. Bahrami" class="profile-pic">
+                    </div>
+                    <div class="photo-caption">
+                        <span class="serif italic">Nima Bahrami</span>
+                        <span class="caption-sub">engineer · netherlands</span>
+                    </div>
+                </div>
+            </div>
+            <a href="#about" class="scroll-hint" aria-label="Scroll down">
+                <span>scroll</span>
+                <i class="fa-solid fa-arrow-down"></i>
+            </a>
+        </section>
 
-                <!-- Agent Based Modeling -->
-                <a href="https://github.com/nimabahrami/agent_based_modeling_pricing_mechanism" target="_blank"
-                    class="project-card">
-                    <h4>Agent Based Modeling</h4>
-                    <p>Pricing mechanism simulation using agent-based modeling to study market dynamics.</p>
-                    <div class="tags">
-                        <span>Python</span><span>Economics</span><span>Simulation</span>
+        <!-- ABOUT -->
+        <section id="about" class="snap-section">
+            <div class="container">
+                <div class="section-head">
+                    <span class="section-tag">about</span>
+                    <h2>A short note about me.</h2>
+                </div>
+                <div class="about-grid">
+                    <p class="about-text">
+                        I build clean data pipelines and clear analytics for renewable portfolios and flexible assets.
+                        My day to day mixes Python and SQL for ETL, data quality checks, time series features,
+                        forecasting and KPI reporting, paired with energy systems modeling in PyPSA. I like
+                        translating dense results into something a trading, asset management or operations team
+                        can actually use.
+                    </p>
+                    <div class="stack">
+                        <div class="stack-group">
+                            <h5>Stack</h5>
+                            <ul>
+                                <li>Python</li><li>SQL</li><li>PyPSA</li><li>Pandas</li><li>NumPy</li>
+                                <li>Plotly</li><li>Streamlit</li><li>FastAPI</li><li>Matlab</li>
+                            </ul>
+                        </div>
+                        <div class="stack-group">
+                            <h5>Domains</h5>
+                            <ul>
+                                <li>Power systems</li><li>Energy markets</li><li>Game theory</li>
+                                <li>Forecasting</li><li>Optimization</li>
+                            </ul>
+                        </div>
                     </div>
-                </a>
-
-                <!-- Transient Conduction Matlab -->
-                <a href="https://github.com/nimabahrami/transient_conduction_matlab" target="_blank"
-                    class="project-card">
-                    <h4>Transient Conduction</h4>
-                    <p>Matlab simulation for analyzing transient heat conduction in engineering systems.</p>
-                    <div class="tags">
-                        <span>Matlab</span><span>Engineering</span><span>Heat Transfer</span>
-                    </div>
-                </a>
-
-                <!-- EU Fossil Plant Viewer -->
-                <a href="https://github.com/nimabahrami/EU_fossil_pp" target="_blank" class="project-card">
-                    <h4>EU Fossil Plant Viewer</h4>
-                    <p>Interactive tool to view and analyze fossil fuel power plants across the European Union.</p>
-                    <div class="tags">
-                        <span>Python</span><span>Data Visualization</span><span>Energy</span>
-                    </div>
-                </a>
-
-                <!-- Numerical Analysis -->
-                <a href="https://github.com/nimabahrami/numerical_analyze_matlab" target="_blank" class="project-card">
-                    <h4>Numerical Analysis</h4>
-                    <p>Matlab implementation of various numerical analysis algorithms and methods.</p>
-                    <div class="tags">
-                        <span>Matlab</span><span>Mathematics</span><span>Algorithms</span>
-                    </div>
-                </a>
+                </div>
             </div>
         </section>
 
-        <section id="contact" class="container">
-            <h3>Get In Touch</h3>
-            <p>Open for collaborations and new opportunities.</p>
-            <a href="mailto:email@example.com" class="btn btn-secondary">Contact Me</a>
+        <!-- WORK · horizontal pinned carousel -->
+        <section id="work" class="work-section">
+            <div class="work-pin">
+                <div class="work-track">
+                    <!-- Intro panel -->
+                    <article class="work-panel intro-panel">
+                        <span class="section-tag">work · data &amp; energy</span>
+                        <h2>Work I'm proud of.</h2>
+                        <p>
+                            Tools and models around power systems, renewable portfolios and energy markets.
+                            Scroll to flip through them.
+                        </p>
+                        <div class="scroll-arrow">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                    </article>
+
+                    <!-- PyPSA-IOP -->
+                    <article class="work-panel">
+                        <a href="https://github.com/nimabahrami/pypsa-iop" target="_blank" class="panel-card">
+                            <div class="card-media">
+                                <img loading="lazy" src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=1100&q=80&auto=format&fit=crop" alt="wind farm">
+                                <span class="card-badge"><i class="fa-brands fa-github"></i> 4 ★</span>
+                            </div>
+                            <div class="panel-body">
+                                <span class="panel-index">01 / 09</span>
+                                <h3>PyPSA-IOP</h3>
+                                <p>Investment and operation planning extension for PyPSA. Mixed integer optimization for power systems.</p>
+                                <div class="tags"><span>Python</span><span>PyPSA</span><span>MIP</span></div>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- PyPSA Drawer -->
+                    <article class="work-panel">
+                        <a href="https://github.com/nimabahrami/pypsa-drawer" target="_blank" class="panel-card">
+                            <div class="card-media">
+                                <img loading="lazy" src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=1100&q=80&auto=format&fit=crop" alt="circuit network">
+                                <span class="card-badge"><i class="fa-brands fa-github"></i> 7 ★</span>
+                            </div>
+                            <div class="panel-body">
+                                <span class="panel-index">02 / 09</span>
+                                <h3>PyPSA Drawer</h3>
+                                <p>Draw your network on a canvas, get back PyPSA ready Python. A small bridge between sketch and simulation.</p>
+                                <div class="tags"><span>JavaScript</span><span>Canvas</span><span>PyPSA</span></div>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- HRES -->
+                    <article class="work-panel">
+                        <a href="https://hybrid-res-sim-84055316990.us-central1.run.app/" target="_blank" class="panel-card">
+                            <div class="card-media">
+                                <img loading="lazy" src="https://images.unsplash.com/photo-1509391366360-2e959784a276?w=1100&q=80&auto=format&fit=crop" alt="solar panels">
+                                <span class="card-badge live"><span class="dot"></span> live</span>
+                            </div>
+                            <div class="panel-body">
+                                <span class="panel-index">03 / 09</span>
+                                <h3>HRES Simulation</h3>
+                                <p>Web deployed simulator for hybrid renewable energy systems. Explore energy mix scenarios on the fly.</p>
+                                <div class="tags"><span>Python</span><span>Streamlit</span><span>Cloud Run</span></div>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Game Theory -->
+                    <article class="work-panel">
+                        <a href="http://wakizashi.pythonanywhere.com/" target="_blank" class="panel-card">
+                            <div class="card-media">
+                                <img loading="lazy" src="https://images.unsplash.com/photo-1528819622765-d6bcf132f793?w=1100&q=80&auto=format&fit=crop" alt="chess board">
+                                <span class="card-badge live"><span class="dot"></span> live</span>
+                            </div>
+                            <div class="panel-body">
+                                <span class="panel-index">04 / 09</span>
+                                <h3>Game Theory Equilibrium</h3>
+                                <p>Web app that finds Nash equilibria between two strategic players. Built with energy market scenarios in mind.</p>
+                                <div class="tags"><span>Python</span><span>Game Theory</span><span>Flask</span></div>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Buffeteria -->
+                    <article class="work-panel">
+                        <a href="https://github.com/nimabahrami/buffeteria" target="_blank" class="panel-card">
+                            <div class="card-media">
+                                <img loading="lazy" src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1100&q=80&auto=format&fit=crop" alt="trading screens">
+                            </div>
+                            <div class="panel-body">
+                                <span class="panel-index">05 / 09</span>
+                                <h3>Buffeteria</h3>
+                                <p>Fundamental analysis on NYSE oil and gas companies. Financial statements served as a clean Python dataset.</p>
+                                <div class="tags"><span>Python</span><span>Finance</span><span>Fundamentals</span></div>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- EU Fossil PP -->
+                    <article class="work-panel">
+                        <a href="https://github.com/nimabahrami/EU_fossil_pp" target="_blank" class="panel-card">
+                            <div class="card-media">
+                                <img loading="lazy" src="https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?w=1100&q=80&auto=format&fit=crop" alt="power plant">
+                            </div>
+                            <div class="panel-body">
+                                <span class="panel-index">06 / 09</span>
+                                <h3>EU Fossil Plant Viewer</h3>
+                                <p>Interactive map of fossil fuel plants across the EU. Slice by country, fuel and capacity.</p>
+                                <div class="tags"><span>JavaScript</span><span>Maps</span><span>Open Data</span></div>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Agent Based Modeling -->
+                    <article class="work-panel">
+                        <a href="https://github.com/nimabahrami/agent_based_modeling_pricing_mechanism" target="_blank" class="panel-card">
+                            <div class="card-media">
+                                <img loading="lazy" src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1100&q=80&auto=format&fit=crop" alt="data viz">
+                            </div>
+                            <div class="panel-body">
+                                <span class="panel-index">07 / 09</span>
+                                <h3>Agent Based Pricing</h3>
+                                <p>Pricing mechanism simulation built with agent based modeling, to study how markets emerge from local rules.</p>
+                                <div class="tags"><span>Python</span><span>ABM</span><span>Markets</span></div>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Shapley -->
+                    <article class="work-panel">
+                        <a href="https://github.com/nimabahrami/Shapley" target="_blank" class="panel-card">
+                            <div class="card-media">
+                                <img loading="lazy" src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=1100&q=80&auto=format&fit=crop" alt="equations">
+                            </div>
+                            <div class="panel-body">
+                                <span class="panel-index">08 / 09</span>
+                                <h3>Shapley</h3>
+                                <p>Short, readable script for computing Shapley values. Fair allocation when cooperation matters.</p>
+                                <div class="tags"><span>Python</span><span>Notebook</span><span>Cooperative GT</span></div>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- MERRA -->
+                    <article class="work-panel">
+                        <a href="https://github.com/nimabahrami/Merra_data" target="_blank" class="panel-card">
+                            <div class="card-media">
+                                <img loading="lazy" src="https://images.unsplash.com/photo-1561553873-e8491a564fd0?w=1100&q=80&auto=format&fit=crop" alt="satellite imagery">
+                            </div>
+                            <div class="panel-body">
+                                <span class="panel-index">09 / 09</span>
+                                <h3>MERRA Data</h3>
+                                <p>Fast extractor for NASA MERRA meteorological data. Strips seasonality so you can model what's left.</p>
+                                <div class="tags"><span>Python</span><span>Weather</span><span>Time Series</span></div>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- SIDE · fun stuff -->
+        <section id="side" class="snap-section">
+            <div class="container">
+                <div class="section-head">
+                    <span class="section-tag">side · just for fun</span>
+                    <h2>Stuff outside the day job.</h2>
+                    <p class="section-sub">Little programs I wrote because they were fun to think about.</p>
+                </div>
+
+                <div class="side-grid">
+                    <a href="https://github.com/nimabahrami/make_it_analog" target="_blank" class="side-card">
+                        <div class="side-icon"><i class="fa-solid fa-camera-retro"></i></div>
+                        <div>
+                            <h4>Make It Analog</h4>
+                            <p>Applies film grain and analog aesthetics to digital photos.</p>
+                            <div class="tags"><span>Python</span><span>OpenCV</span></div>
+                        </div>
+                    </a>
+
+                    <a href="https://github.com/nimabahrami/imagewiki" target="_blank" class="side-card">
+                        <div class="side-icon"><i class="fa-solid fa-image"></i></div>
+                        <div>
+                            <h4>ImageWiki</h4>
+                            <p>Turns a Wikipedia link into a shareable card image.</p>
+                            <div class="tags"><span>Python</span><span>PIL</span></div>
+                        </div>
+                    </a>
+
+                    <a href="https://github.com/nimabahrami/macbook_price_checker" target="_blank" class="side-card">
+                        <div class="side-icon"><i class="fa-brands fa-apple"></i></div>
+                        <div>
+                            <h4>MacBook Price Checker</h4>
+                            <p>Watches Apple's site and emails me when a MacBook drops below my target.</p>
+                            <div class="tags"><span>Python</span><span>Scraping</span></div>
+                        </div>
+                    </a>
+
+                    <a href="https://github.com/nimabahrami/tomancalculator" target="_blank" class="side-card">
+                        <div class="side-icon"><i class="fa-solid fa-coins"></i></div>
+                        <div>
+                            <h4>Toman Calculator</h4>
+                            <p>A small currency tool I built while watching the Iranian Rial slide against the dollar.</p>
+                            <div class="tags"><span>CSS</span><span>JS</span></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- LAB · academic -->
+        <section id="lab" class="snap-section">
+            <div class="container">
+                <div class="section-head">
+                    <span class="section-tag">lab · academic &amp; engineering</span>
+                    <h2>From my mechanical engineering days.</h2>
+                    <p class="section-sub">Matlab simulations and numerical methods I keep around as references.</p>
+                </div>
+
+                <ul class="lab-list">
+                    <li>
+                        <a href="https://github.com/nimabahrami/transient_conduction_matlab" target="_blank">
+                            <span class="lab-name">Transient Conduction</span>
+                            <span class="lab-desc">Heat transfer simulation in solids over time.</span>
+                            <span class="lab-tag">Matlab</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/nimabahrami/numerical_analyze_matlab" target="_blank">
+                            <span class="lab-name">Numerical Analysis</span>
+                            <span class="lab-desc">Implementations of classical numerical methods.</span>
+                            <span class="lab-tag">Matlab</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/nimabahrami/potential-flow" target="_blank">
+                            <span class="lab-name">Potential Flow</span>
+                            <span class="lab-desc">Incompressible inviscid flow modeling.</span>
+                            <span class="lab-tag">Matlab</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/nimabahrami/boundary-layer" target="_blank">
+                            <span class="lab-name">Boundary Layer</span>
+                            <span class="lab-desc">Boundary layer equations solved numerically.</span>
+                            <span class="lab-tag">Matlab</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/nimabahrami/adsorption" target="_blank">
+                            <span class="lab-name">Adsorption Desalination</span>
+                            <span class="lab-desc">Fresh water output and specific energy consumption.</span>
+                            <span class="lab-tag">Matlab</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="snap-section contact-section">
+            <div class="container">
+                <div class="contact-card">
+                    <span class="section-tag">contact</span>
+                    <h2>Let's build something.</h2>
+                    <p>Open for energy data collaborations, contract work, or a good conversation about power markets.</p>
+                    <div class="cta-buttons center">
+                        <a href="mailto:n.bahraami@gmail.com" class="btn btn-primary">
+                            <i class="fa-regular fa-envelope"></i> n.bahraami@gmail.com
+                        </a>
+                        <a href="https://www.linkedin.com/in/nima-bahrami-20013b144/" target="_blank" class="btn btn-ghost">
+                            <i class="fa-brands fa-linkedin"></i> LinkedIn
+                        </a>
+                        <a href="https://github.com/nimabahrami" target="_blank" class="btn btn-ghost">
+                            <i class="fa-brands fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 N. Bahrami. All rights reserved.</p>
+        <span>&copy; 2026 nima.bahrami · built with coffee &amp; PyPSA.</span>
     </footer>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
     <script src="script.js"></script>
 </body>
 
